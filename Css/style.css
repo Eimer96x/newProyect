@@ -1,0 +1,18 @@
+.header-menu{
+    padding: 3px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: end;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    background-color: red;
+
+}
+.header-menu a {
+    text-decoration: none;
+}
+img{
+    height: 100px;
+    width: 5rem;
+}
