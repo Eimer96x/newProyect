@@ -1,18 +1,30 @@
-.header-menu{
-    padding: 3px;
-    justify-content: space-between;
-    display: flex;
-    justify-content: end;
-    height: auto;
-    width: auto;
-    text-decoration: none;
+body{
     background-color: red;
+}
 
+.Header1{
+    display: flex;               /* Utiliza flexbox para el diseño */
+    align-items: center;         /* Alinea los elementos verticalmente al centro */
+    justify-content: space-between;  /* Espacio entre los elementos */
+    padding: 10px;               /* Añade un poco de padding */
+    background-color: #f8f9fa;
 }
-.header-menu a {
-    text-decoration: none;
+.Header1 img {
+    max-height: 120px;  
+ }   
+ .menu {
+    display: flex;               /* Utiliza flexbox para los elementos del menú */
+    gap: 08px;                   /* Espaciado entre los enlaces del menú */
 }
-img{
-    height: 100px;
-    width: 5rem;
+
+.menu a {
+    text-decoration: none;       /* Quita el subrayado de los enlaces */
+    color: #333;                 /* Color de los enlaces */
+    font-size: 16px;             /* Tamaño de fuente de los enlaces */
+    padding: 5px 10px;           /* Espaciado interno de los enlaces */
+    transition: color 0.3s;      /* Transición suave para el color */
+}
+
+.menu a:hover {
+    color: #007bff;              /* Color de los enlaces al pasar el ratón */
 }
